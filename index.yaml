@@ -3,9 +3,9 @@ entries:
   mintyn-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-13T19:21:09.267971+01:00"
+    created: "2024-08-17T17:50:32.48854+01:00"
     description: A Helm chart for Kubernetes
-    digest: 0d76f9135edcbae2e7fddf6a8daa1a71e1a1378f141ba64a92415403be0cf4a4
+    digest: 5e4ad0e7b14e1cbef86b5bed5d76abd2ea11fa3d10dc0e8e0e69ff7f382b425e
     name: mintyn-chart
     type: application
     urls:
@@ -14,12 +14,12 @@ entries:
   mintyn-chart-prod:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-13T19:21:09.268288+01:00"
+    created: "2024-08-17T17:50:32.489578+01:00"
     description: A Helm chart for Kubernetes
-    digest: f73872d1ddc0900d9acb645c6503b8675bd69eeaaf32024002c3b5ba150ad06d
+    digest: 67aadfc24ee8ccf99886b763663dcbd2a0ffb89f078b13b3d6787b9565ee75d2
     name: mintyn-chart-prod
     type: application
     urls:
     - https://mint-ng.github.io/helm-chart/mintyn-chart-prod-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-13T19:21:09.265474+01:00"
+generated: "2024-08-17T17:50:32.481909+01:00"
