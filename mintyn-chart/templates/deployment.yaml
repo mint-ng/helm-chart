@@ -24,7 +24,7 @@ spec:
       containers:
       - name: {{ .Values.fullnameOverride }}
         image: {{ .Values.image.repository }}
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         env:
         {{- range .Values.env }}
         - name: {{ .name }}
