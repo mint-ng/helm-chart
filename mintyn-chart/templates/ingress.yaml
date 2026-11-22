@@ -15,6 +15,7 @@ metadata:
     alb.ingress.kubernetes.io/healthy-threshold-count: '2'
     alb.ingress.kubernetes.io/unhealthy-threshold-count: '2'
     alb.ingress.kubernetes.io/group.name: "mintyn-fintech"
+    alb.ingress.kubernetes.io/ssl-policy: ELBSecurityPolicy-TLS13-1-2-Res-PQ-2025-09
 spec:
   ingressClassName: {{ .Values.ingress.ingressClassName | default "alb"}}
   rules:
